@@ -1,0 +1,96 @@
+Using device 1 (rank 4, local rank 4, local size 6) : Tesla K80
+Using device 1 (rank 5, local rank 5, local size 6) : Tesla K80
+Using device 1 (rank 3, local rank 3, local size 6) : Tesla K80
+Using device 0 (rank 2, local rank 2, local size 6) : Tesla K80
+Using device 0 (rank 1, local rank 1, local size 6) : Tesla K80
+Using device 0 (rank 0, local rank 0, local size 6) : Tesla K80
+ running on    6 total cores
+ distrk:  each k-point on    6 cores,    1 groups
+ distr:  one band on    1 cores,    6 groups
+ using from now: INCAR     
+  
+ *******************************************************************************
+  You are running the GPU port of VASP! When publishing results obtained with
+  this version, please cite:
+   - M. Hacene et al., http://dx.doi.org/10.1002/jcc.23096
+   - M. Hutchinson and M. Widom, http://dx.doi.org/10.1016/j.cpc.2012.02.017
+  
+  in addition to the usual required citations (see manual).
+  
+  GPU developers: A. Anciaux-Sedrakian, C. Angerer, and M. Hutchinson.
+ *******************************************************************************
+  
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build May 02 2017 15:33:50) complex          
+  
+ POSCAR found type information on POSCAR  Al N 
+ POSCAR found :  2 types and     254 ions
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+creating 32 CUDA streams...
+creating 32 CUDA streams...
+creating 32 CUDA streams...
+creating 32 CUDA streams...
+creating 32 CUDA streams...
+creating 32 CUDA streams...
+creating 32 CUFFT plans with grid size 128 x 80 x 80...
+creating 32 CUFFT plans with grid size 128 x 80 x 80...
+creating 32 CUFFT plans with grid size 128 x 80 x 80...
+creating 32 CUFFT plans with grid size 128 x 80 x 80...
+creating 32 CUFFT plans with grid size 128 x 80 x 80...
+creating 32 CUFFT plans with grid size 128 x 80 x 80...
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.213329171901E+04    0.21333E+04   -0.18421E+05  3144   0.734E+02
+DAV:   2    -0.743913255945E+03   -0.28772E+04   -0.27123E+04  4224   0.193E+02
+DAV:   3    -0.955698054745E+03   -0.21178E+03   -0.20365E+03  4668   0.406E+01
+DAV:   4    -0.963253444743E+03   -0.75554E+01   -0.73760E+01  4332   0.774E+00
+DAV:   5    -0.963609578960E+03   -0.35613E+00   -0.35452E+00  4800   0.186E+00    0.196E+01
+DAV:   6    -0.978527161205E+03   -0.14918E+02   -0.19074E+02  3972   0.163E+01    0.191E+01
+DAV:   7    -0.938128655222E+03    0.40399E+02   -0.13315E+02  4008   0.155E+01    0.102E+01
+DAV:   8    -0.937642326791E+03    0.48633E+00   -0.46850E+01  3840   0.564E+00    0.476E+00
+DAV:   9    -0.937050786318E+03    0.59154E+00   -0.45579E+00  3756   0.375E+00    0.303E+00
+DAV:  10    -0.935550948302E+03    0.14998E+01   -0.10708E+00  3888   0.298E+00    0.119E+00
+DAV:  11    -0.935410694060E+03    0.14025E+00   -0.14839E+00  4032   0.119E+00    0.659E-01
+DAV:  12    -0.935382753562E+03    0.27940E-01   -0.22326E-01  4344   0.577E-01    0.466E-01
+DAV:  13    -0.935359690100E+03    0.23063E-01   -0.62419E-02  4068   0.275E-01    0.279E-01
+DAV:  14    -0.935354380890E+03    0.53092E-02   -0.27086E-02  3852   0.196E-01    0.169E-01
+DAV:  15    -0.935355762368E+03   -0.13815E-02   -0.11516E-02  3780   0.125E-01    0.127E-01
+DAV:  16    -0.935363739247E+03   -0.79769E-02   -0.40716E-03  3960   0.640E-02    0.834E-02
+DAV:  17    -0.935372804339E+03   -0.90651E-02   -0.33064E-03  3684   0.527E-02    0.415E-02
+DAV:  18    -0.935374645483E+03   -0.18411E-02   -0.44851E-04  3840   0.278E-02    0.260E-02
+DAV:  19    -0.935376053817E+03   -0.14083E-02   -0.31216E-04  3564   0.203E-02    0.202E-02
+DAV:  20    -0.935377153128E+03   -0.10993E-02   -0.31951E-04  3432   0.144E-02    0.168E-02
+DAV:  21    -0.935377755314E+03   -0.60219E-03   -0.13279E-04  3552   0.105E-02    0.861E-03
+DAV:  22    -0.935379033029E+03   -0.12777E-02   -0.83827E-05  3648   0.778E-03    0.984E-03
+DAV:  23    -0.935380230874E+03   -0.11978E-02   -0.81977E-05  3300   0.586E-03    0.411E-03
+DAV:  24    -0.935381007676E+03   -0.77680E-03   -0.77751E-05  3336   0.413E-03    0.187E-03
+DAV:  25    -0.935381151773E+03   -0.14410E-03   -0.72385E-06  2688   0.171E-03    0.103E-03
+DAV:  26    -0.935381223362E+03   -0.71590E-04   -0.40052E-06  2424   0.132E-03    0.783E-04
+DAV:  27    -0.935381245054E+03   -0.21691E-04   -0.96897E-07  2184   0.846E-04    0.779E-04
+DAV:  28    -0.935381250254E+03   -0.52002E-05   -0.24837E-07  1896   0.545E-04    0.620E-04
+DAV:  29    -0.935381253635E+03   -0.33812E-05   -0.22165E-07  2004   0.510E-04
+   1 F= -.93538125E+03 E0= -.93535373E+03  d E =-.550474E-01

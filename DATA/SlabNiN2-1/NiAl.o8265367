@@ -1,0 +1,143 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+r3597
+Terminated
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC0ADF327E0  Unknown               Unknown  Unknown
+libmkl_avx2.so     00007FC0894C8158  Unknown               Unknown  Unknown
+libmkl_core.so     00007FC0BD325943  Unknown               Unknown  Unknown
+libmkl_core.so     00007FC0BD30D294  Unknown               Unknown  Unknown
+libmkl_core.so     00007FC0BD16C913  Unknown               Unknown  Unknown
+libmkl_intel_lp64  00007FC0BF24DEB5  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000190F4C3  david_mp_eddav_.V        1704  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FC0ADBADD1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FD8062F57E0  Unknown               Unknown  Unknown
+libmkl_avx2.so     00007FD7E188B0BE  Unknown               Unknown  Unknown
+libmkl_core.so     00007FD8156E8943  Unknown               Unknown  Unknown
+libmkl_core.so     00007FD8156D0294  Unknown               Unknown  Unknown
+libmkl_core.so     00007FD81552F913  Unknown               Unknown  Unknown
+libmkl_intel_lp64  00007FD817610EB5  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000190F4C3  david_mp_eddav_.V        1704  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FD805F70D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F1F7A2B87E0  Unknown               Unknown  Unknown
+libmkl_avx2.so     00007F1F5584E158  Unknown               Unknown  Unknown
+libmkl_core.so     00007F1F896AB943  Unknown               Unknown  Unknown
+libmkl_core.so     00007F1F89693294  Unknown               Unknown  Unknown
+libmkl_core.so     00007F1F894F2913  Unknown               Unknown  Unknown
+libmkl_intel_lp64  00007F1F8B5D3EB5  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000190F4C3  david_mp_eddav_.V        1704  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F1F79F33D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FA7D83CA7E0  Unknown               Unknown  Unknown
+libmkl_avx2.so     00007FA7B31D98E1  Unknown               Unknown  Unknown
+libmkl_core.so     00007FA7E77BD9D9  Unknown               Unknown  Unknown
+libmkl_core.so     00007FA7E77A5294  Unknown               Unknown  Unknown
+libmkl_core.so     00007FA7E7604913  Unknown               Unknown  Unknown
+libmkl_intel_lp64  00007FA7E96E5EB5  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000190F4C3  david_mp_eddav_.V        1704  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FA7D8045D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FA0EFA2C7E0  Unknown               Unknown  Unknown
+libmkl_avx2.so     00007FA0BA73B10E  Unknown               Unknown  Unknown
+libmkl_core.so     00007FA0FEE1F943  Unknown               Unknown  Unknown
+libmkl_core.so     00007FA0FEE07294  Unknown               Unknown  Unknown
+libmkl_core.so     00007FA0FEC66913  Unknown               Unknown  Unknown
+libmkl_intel_lp64  00007FA100D47EB5  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000190F4C3  david_mp_eddav_.V        1704  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FA0EF6A7D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FB09F84A7E0  Unknown               Unknown  Unknown
+libmkl_avx2.so     00007FB06A73B0BE  Unknown               Unknown  Unknown
+libmkl_core.so     00007FB0AEC3D943  Unknown               Unknown  Unknown
+libmkl_core.so     00007FB0AEC25294  Unknown               Unknown  Unknown
+libmkl_core.so     00007FB0AEA84913  Unknown               Unknown  Unknown
+libmkl_intel_lp64  00007FB0B0B65EB5  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000190F4C3  david_mp_eddav_.V        1704  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FB09F4C5D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+
+======================================================================================
+                  Resource Usage on 2018-07-09 21:44:04:
+   Job Id:             8265367.r-man2
+   Project:            y35
+   Exit Status:        143 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      170.85
+   NCPUs Requested:    6                      NCPUs Used: 6               
+                                           CPU Time Used: 56:22:07                                   
+   Memory Requested:   15.0GB                Memory Used: 9.91GB          
+   Walltime requested: 20:00:00            Walltime Used: 09:29:31        
+   JobFS requested:    250.0MB                JobFS used: 3.84KB          
+======================================================================================

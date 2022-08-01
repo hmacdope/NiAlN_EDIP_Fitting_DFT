@@ -1,0 +1,186 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+r3600
+Terminated
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F0258CD97E0  Unknown               Unknown  Unknown
+mca_btl_vader.so   00007F024E36DE4B  Unknown               Unknown  Unknown
+mca_btl_vader.so   00007F024E36F79F  Unknown               Unknown  Unknown
+libopen-pal.so.13  00007F025773EFE5  Unknown               Unknown  Unknown
+libmpi.so.12       00007F02591AFF20  Unknown               Unknown  Unknown
+libmpi.so.12       00007F02591B044F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F024C9FA33F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F024CA02873  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F024CA02EA6  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F024C9FA8FA  Unknown               Unknown  Unknown
+libmpi.so.12       00007F02591C84E2  Unknown               Unknown  Unknown
+libmpi_mpifh.so.1  00007F02594D3056  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000042C0AA  m_alltoallv_z_           1989  mpi_gpu.F
+vasp_std-gpu       00000000026633AF  map_forward_.V            348  fftmpi_map.F
+vasp_std-gpu       00000000026499B7  fftbas_plan_mpi_          179  fftmpiw.F
+vasp_std-gpu       000000000264A5B1  fft3d_mpi_                524  fftmpiw.F
+vasp_std-gpu       0000000000E106C2  pot_gpu_mp_potlok         269  pot_gpu.F
+vasp_std-gpu       0000000001A09387  elmin_.V                  301  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F0258954D20  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FE0171637E0  Unknown               Unknown  Unknown
+libopen-pal.so.13  00007FE015BC8E80  Unknown               Unknown  Unknown
+libopen-pal.so.13  00007FE015BC8E9E  Unknown               Unknown  Unknown
+libopen-pal.so.13  00007FE015BC8F5E  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE017639F20  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE01763A44F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007FE00AE8433F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007FE00AE8C873  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007FE00AE8CEA6  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007FE00AE848FA  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE0176524E2  Unknown               Unknown  Unknown
+libmpi_mpifh.so.1  00007FE01795D056  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000042C0AA  m_alltoallv_z_           1989  mpi_gpu.F
+vasp_std-gpu       00000000026633AF  map_forward_.V            348  fftmpi_map.F
+vasp_std-gpu       00000000026499B7  fftbas_plan_mpi_          179  fftmpiw.F
+vasp_std-gpu       000000000264A5B1  fft3d_mpi_                524  fftmpiw.F
+vasp_std-gpu       0000000000E106C2  pot_gpu_mp_potlok         269  pot_gpu.F
+vasp_std-gpu       0000000001A09387  elmin_.V                  301  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FE016DDED20  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F04F87087E0  Unknown               Unknown  Unknown
+mca_btl_vader.so   00007F04EDD9E779  Unknown               Unknown  Unknown
+libopen-pal.so.13  00007F04F716DFE5  Unknown               Unknown  Unknown
+libmpi.so.12       00007F04F8BDEF20  Unknown               Unknown  Unknown
+libmpi.so.12       00007F04F8BDF44F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F04EC42933F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F04EC431873  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F04EC431EA6  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F04EC4298FA  Unknown               Unknown  Unknown
+libmpi.so.12       00007F04F8BF74E2  Unknown               Unknown  Unknown
+libmpi_mpifh.so.1  00007F04F8F02056  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000042C0AA  m_alltoallv_z_           1989  mpi_gpu.F
+vasp_std-gpu       00000000026633AF  map_forward_.V            348  fftmpi_map.F
+vasp_std-gpu       00000000026499B7  fftbas_plan_mpi_          179  fftmpiw.F
+vasp_std-gpu       000000000264A5B1  fft3d_mpi_                524  fftmpiw.F
+vasp_std-gpu       0000000000E106C2  pot_gpu_mp_potlok         269  pot_gpu.F
+vasp_std-gpu       0000000001A09387  elmin_.V                  301  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F04F8383D20  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FE5E6BD37E0  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000E07D2C  potion_.V                 966  pot.F
+vasp_std-gpu       0000000000E10445  pot_gpu_mp_potlok         234  pot_gpu.F
+vasp_std-gpu       0000000001A09387  elmin_.V                  301  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FE5E684ED20  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F0CCDE8A7E0  Unknown               Unknown  Unknown
+mca_btl_vader.so   00007F0CC351EE1D  Unknown               Unknown  Unknown
+mca_btl_vader.so   00007F0CC352079F  Unknown               Unknown  Unknown
+libopen-pal.so.13  00007F0CCC8EFFE5  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0CCE360F20  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0CCE36144F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F0CC1BAB33F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F0CC1BB3873  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F0CC1BB3EA6  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F0CC1BAB8FA  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0CCE3794E2  Unknown               Unknown  Unknown
+libmpi_mpifh.so.1  00007F0CCE684056  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000042C0AA  m_alltoallv_z_           1989  mpi_gpu.F
+vasp_std-gpu       00000000026633AF  map_forward_.V            348  fftmpi_map.F
+vasp_std-gpu       00000000026499B7  fftbas_plan_mpi_          179  fftmpiw.F
+vasp_std-gpu       000000000264A5B1  fft3d_mpi_                524  fftmpiw.F
+vasp_std-gpu       0000000000E106C2  pot_gpu_mp_potlok         269  pot_gpu.F
+vasp_std-gpu       0000000001A09387  elmin_.V                  301  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F0CCDB05D20  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007EFCB13537E0  Unknown               Unknown  Unknown
+libopen-pal.so.13  00007EFCAFDB8FE3  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFCB1829F20  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFCB182A44F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007EFCA507433F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007EFCA507C873  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007EFCA507CEA6  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007EFCA50748FA  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFCB18424E2  Unknown               Unknown  Unknown
+libmpi_mpifh.so.1  00007EFCB1B4D056  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000042C0AA  m_alltoallv_z_           1989  mpi_gpu.F
+vasp_std-gpu       00000000026633AF  map_forward_.V            348  fftmpi_map.F
+vasp_std-gpu       00000000026499B7  fftbas_plan_mpi_          179  fftmpiw.F
+vasp_std-gpu       000000000264A5B1  fft3d_mpi_                524  fftmpiw.F
+vasp_std-gpu       0000000000E106C2  pot_gpu_mp_potlok         269  pot_gpu.F
+vasp_std-gpu       0000000001A09387  elmin_.V                  301  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007EFCB0FCED20  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+
+======================================================================================
+                  Resource Usage on 2018-11-14 09:15:05:
+   Job Id:             2356496.r-man2
+   Project:            y35
+   Exit Status:        143 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      2.19
+   NCPUs Requested:    6                      NCPUs Used: 6               
+                                           CPU Time Used: 00:39:10                                   
+   Memory Requested:   15.0GB                Memory Used: 1.89GB          
+   Walltime requested: 20:00:00            Walltime Used: 00:07:17        
+   JobFS requested:    250.0MB                JobFS used: 3.84KB          
+======================================================================================

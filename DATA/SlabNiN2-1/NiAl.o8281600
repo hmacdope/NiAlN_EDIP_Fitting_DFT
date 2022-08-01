@@ -1,0 +1,177 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+r3597
+=>> PBS: job killed: walltime 72038 exceeded limit 72000
+Terminated
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F58380787E0  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5844A0D10E  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5844A0D227  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5844990986  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5844991241  Unknown               Unknown  Unknown
+libcuda.so.1       00007F58449915C4  Unknown               Unknown  Unknown
+libcuda.so.1       00007F58448AF3DC  Unknown               Unknown  Unknown
+libcuda.so.1       00007F58448AF551  Unknown               Unknown  Unknown
+libcuda.so.1       00007F58447E5F2A  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5844926D88  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F584568A179  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F58456AB5F9  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000274CCF6  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000001909936  david_mp_eddav_.V        1192  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F5837CF3D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F5CF8ED67E0  Unknown               Unknown  Unknown
+libmkl_avx2.so     00007F5CD4178CC0  Unknown               Unknown  Unknown
+libmkl_avx2.so     00007F5CD419C215  Unknown               Unknown  Unknown
+libmkl_intel_lp64  00007F5D09FC53D8  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000716C93  wave_high_mp_w1_c         170  wave_high_gpu.F
+vasp_std-gpu       0000000001902801  david_mp_eddav_.V         432  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F5CF8B51D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F0E910C87E0  Unknown               Unknown  Unknown
+mca_btl_vader.so   00007F0E8675CE48  Unknown               Unknown  Unknown
+mca_btl_vader.so   00007F0E8675E79F  Unknown               Unknown  Unknown
+libopen-pal.so.13  00007F0E8FB2DFE5  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0E9159EF20  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0E9159F44F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F0E84DE933F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F0E84DEF69F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F0E84DEFBAE  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007F0E84DE9886  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0E915B68D2  Unknown               Unknown  Unknown
+libmpi_mpifh.so.1  00007F0E918C1EC5  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000042D01A  m_alltoall_z_            2335  mpi_gpu.F
+vasp_std-gpu       00000000006E146E  redis_proj_.V            1077  wave_mpi_gpu.F
+vasp_std-gpu       0000000001911BB1  david_mp_eddav_.V         470  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F0E90D43D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FDA381E77E0  Unknown               Unknown  Unknown
+libcuda.so.1       00007FDA44A6BEE8  Unknown               Unknown  Unknown
+libcuda.so.1       00007FDA44B7C0EB  Unknown               Unknown  Unknown
+libcuda.so.1       00007FDA44B7C227  Unknown               Unknown  Unknown
+libcuda.so.1       00007FDA44B003CD  Unknown               Unknown  Unknown
+libcuda.so.1       00007FDA44B005C4  Unknown               Unknown  Unknown
+libcuda.so.1       00007FDA44A1E3DC  Unknown               Unknown  Unknown
+libcuda.so.1       00007FDA44A1E551  Unknown               Unknown  Unknown
+libcuda.so.1       00007FDA44954F2A  Unknown               Unknown  Unknown
+libcuda.so.1       00007FDA44A95D88  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007FDA457F9179  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007FDA4581A5F9  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000274CCF6  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000001909936  david_mp_eddav_.V        1192  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FDA37E62D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F5D5804B7E0  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5D648AA55A  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5D648AD5B5  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5D647C0E7E  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5D647C2C86  Unknown               Unknown  Unknown
+libcuda.so.1       00007F5D649157B2  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F5D6567C8CC  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F5D65658B5B  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F5D65692B08  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000274BC0A  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000001902B4B  david_mp_eddav_.V         438  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F5D57CC6D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FE230DF07E0  Unknown               Unknown  Unknown
+mca_btl_vader.so   00007FE226485002  Unknown               Unknown  Unknown
+mca_btl_vader.so   00007FE22648679F  Unknown               Unknown  Unknown
+libopen-pal.so.13  00007FE22F855FE5  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE2312C6F20  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE2312C744F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007FE224B1133F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007FE224B1769F  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007FE224B17BAE  Unknown               Unknown  Unknown
+mca_coll_tuned.so  00007FE224B11886  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE2312DE8D2  Unknown               Unknown  Unknown
+libmpi_mpifh.so.1  00007FE2315E9EC5  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000042D01A  m_alltoall_z_            2335  mpi_gpu.F
+vasp_std-gpu       00000000006E146E  redis_proj_.V            1077  wave_mpi_gpu.F
+vasp_std-gpu       0000000001911BB1  david_mp_eddav_.V         470  davidson_gpu.F
+vasp_std-gpu       0000000001A090CD  elmin_.V                  449  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FE230A6BD1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+
+======================================================================================
+                  Resource Usage on 2018-07-10 17:50:15:
+   Job Id:             8281600.r-man2
+   Project:            y35
+   Exit Status:        143 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      360.25
+   NCPUs Requested:    6                      NCPUs Used: 6               
+                                           CPU Time Used: 118:51:53                                  
+   Memory Requested:   15.0GB                Memory Used: 10.1GB          
+   Walltime requested: 20:00:00            Walltime Used: 20:00:50        
+   JobFS requested:    250.0MB                JobFS used: 3.84KB          
+======================================================================================

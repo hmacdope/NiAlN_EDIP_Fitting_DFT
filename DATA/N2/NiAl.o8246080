@@ -1,0 +1,16 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+r3605
+
+======================================================================================
+                  Resource Usage on 2018-07-08 18:58:02:
+   Job Id:             8246080.r-man2
+   Project:            y35
+   Exit Status:        0
+   Service Units:      0.10
+   NCPUs Requested:    6                      NCPUs Used: 6               
+                                           CPU Time Used: 00:00:54                                   
+   Memory Requested:   15.0GB                Memory Used: 47.23MB         
+   Walltime requested: 02:00:00            Walltime Used: 00:00:20        
+   JobFS requested:    250.0MB                JobFS used: 3.77KB          
+======================================================================================

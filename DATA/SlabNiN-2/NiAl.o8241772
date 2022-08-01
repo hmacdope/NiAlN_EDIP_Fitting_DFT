@@ -1,0 +1,16 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+r3643
+
+======================================================================================
+                  Resource Usage on 2018-07-08 23:37:58:
+   Job Id:             8241772.r-man2
+   Project:            y35
+   Exit Status:        0
+   Service Units:      177.19
+   NCPUs Requested:    6                      NCPUs Used: 6               
+                                           CPU Time Used: 58:28:42                                   
+   Memory Requested:   15.0GB                Memory Used: 6.49GB          
+   Walltime requested: 20:00:00            Walltime Used: 09:50:38        
+   JobFS requested:    250.0MB                JobFS used: 3.77KB          
+======================================================================================

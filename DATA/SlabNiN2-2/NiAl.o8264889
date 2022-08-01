@@ -1,0 +1,165 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+r3598
+=>> PBS: job killed: walltime 72043 exceeded limit 72000
+Terminated
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FA21C9FE7E0  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA22918A683  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA229235F10  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA2292360AF  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA229317332  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA2293175C4  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA2293364EA  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA229260616  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA229173E7E  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA229176336  Unknown               Unknown  Unknown
+libcuda.so.1       00007FA2292C7255  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007FA22A02FA3A  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007FA22A00BC51  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007FA22A035B28  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000275F205  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000026A263F  fftwav_.V                 376  fftw3d_gpu.F
+vasp_std-gpu       0000000002649ED1  fftwav_mpi_               352  fftmpiw.F
+vasp_std-gpu       00000000006F550A  wave_high_mp_fftw         147  wave_high_gpu.F
+vasp_std-gpu       0000000000D055DD  charge_mp_soft_ch         112  charge.F
+vasp_std-gpu       0000000000ED4172  us_mp_set_charge_        1119  us.F
+vasp_std-gpu       0000000001A02B08  elmin_.V                  711  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FA21C679D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F91C6E257E0  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000901966  pw_charge_.V             1378  hamil.F
+vasp_std-gpu       0000000000D05674  charge_mp_soft_ch         113  charge.F
+vasp_std-gpu       0000000000ED4172  us_mp_set_charge_        1119  us.F
+vasp_std-gpu       0000000001A02B08  elmin_.V                  711  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F91C6AA0D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F8AC31DD7E0  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000090194A  pw_charge_.V             1378  hamil.F
+vasp_std-gpu       0000000000D05674  charge_mp_soft_ch         113  charge.F
+vasp_std-gpu       0000000000ED4172  us_mp_set_charge_        1119  us.F
+vasp_std-gpu       0000000001A02B08  elmin_.V                  711  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F8AC2E58D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F51CED6E7E0  Unknown               Unknown  Unknown
+libcuda.so.1       00007F51DB51B183  Unknown               Unknown  Unknown
+libcuda.so.1       00007F51DB5CF03E  Unknown               Unknown  Unknown
+libcuda.so.1       00007F51DB6A6530  Unknown               Unknown  Unknown
+libcuda.so.1       00007F51DB5D0616  Unknown               Unknown  Unknown
+libcuda.so.1       00007F51DB4E3E7E  Unknown               Unknown  Unknown
+libcuda.so.1       00007F51DB4E6336  Unknown               Unknown  Unknown
+libcuda.so.1       00007F51DB637255  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F51DC39FA3A  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F51DC37BC51  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F51DC3A5B28  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000275F205  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000026A263F  fftwav_.V                 376  fftw3d_gpu.F
+vasp_std-gpu       0000000002649ED1  fftwav_mpi_               352  fftmpiw.F
+vasp_std-gpu       00000000006F550A  wave_high_mp_fftw         147  wave_high_gpu.F
+vasp_std-gpu       0000000000D055DD  charge_mp_soft_ch         112  charge.F
+vasp_std-gpu       0000000000ED4172  us_mp_set_charge_        1119  us.F
+vasp_std-gpu       0000000001A02B08  elmin_.V                  711  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F51CE9E9D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FEF35C967E0  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000090194A  pw_charge_.V             1378  hamil.F
+vasp_std-gpu       0000000000D05674  charge_mp_soft_ch         113  charge.F
+vasp_std-gpu       0000000000ED4172  us_mp_set_charge_        1119  us.F
+vasp_std-gpu       0000000001A02B08  elmin_.V                  711  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007FEF35911D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+vasp_std-gpu       0000000002850F65  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000284EB87  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEC94  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027CEAA6  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000027708B6  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000277666E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F7BC78FE7E0  Unknown               Unknown  Unknown
+libcuda.so.1       00007F7BD42175B7  Unknown               Unknown  Unknown
+libcuda.so.1       00007F7BD41353DC  Unknown               Unknown  Unknown
+libcuda.so.1       00007F7BD4135551  Unknown               Unknown  Unknown
+libcuda.so.1       00007F7BD406BF2A  Unknown               Unknown  Unknown
+libcuda.so.1       00007F7BD41ACD88  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F7BD4F100E9  Unknown               Unknown  Unknown
+libcudart.so.8.0   00007F7BD4F33399  Unknown               Unknown  Unknown
+vasp_std-gpu       000000000275F1E8  Unknown               Unknown  Unknown
+vasp_std-gpu       00000000026A263F  fftwav_.V                 376  fftw3d_gpu.F
+vasp_std-gpu       0000000002649ED1  fftwav_mpi_               352  fftmpiw.F
+vasp_std-gpu       00000000006F550A  wave_high_mp_fftw         147  wave_high_gpu.F
+vasp_std-gpu       0000000000D055DD  charge_mp_soft_ch         112  charge.F
+vasp_std-gpu       0000000000ED4172  us_mp_set_charge_        1119  us.F
+vasp_std-gpu       0000000001A02B08  elmin_.V                  711  electron_gpu.F
+vasp_std-gpu       000000000271BC42  vamp_IP_electroni        4745  main.F
+vasp_std-gpu       00000000026DFF33  MAIN__                   2792  main.F
+vasp_std-gpu       000000000041455E  Unknown               Unknown  Unknown
+libc.so.6          00007F7BC7579D1D  Unknown               Unknown  Unknown
+vasp_std-gpu       0000000000414469  Unknown               Unknown  Unknown
+
+======================================================================================
+                  Resource Usage on 2018-07-10 08:05:25:
+   Job Id:             8264889.r-man2
+   Project:            y35
+   Exit Status:        143 (Linux Signal 15 SIGTERM Termination)
+   Service Units:      360.27
+   NCPUs Requested:    6                      NCPUs Used: 6               
+                                           CPU Time Used: 119:04:34                                  
+   Memory Requested:   15.0GB                Memory Used: 10.12GB         
+   Walltime requested: 20:00:00            Walltime Used: 20:00:54        
+   JobFS requested:    250.0MB                JobFS used: 3.84KB          
+======================================================================================
