@@ -9,7 +9,7 @@ for d in */ ; do
     if [ -d "./EAM_energy" ]
     then
 	    cd "./EAM_energy"
-	    cp ../../make_run.py .
+	    cp ../../../scripts/make_run.py .
 	    python3 make_run.py
 	    cd ../
     fi
